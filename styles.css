@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+}
+
+html {
+    font-size: 10pt;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    width: 40rem;
+    height: 50rem;
+    border-radius: 47px;
+    background: #edc5c5;
+    box-shadow: 35px 35px 70px #e1bbbb,
+        -35px -35px 70px #f9cfcf;
+}
+
+header {
+    font-family: 'Tourney', cursive;
+    font-size: x-large;
+    padding-top: 3rem;
+    text-align: center;
+    margin: 5rem auto 5rem;
+
+}
+.input {
+    padding-top: 2.5rem;
+}
+
+button {
+    padding: .3rem 1rem;
+    font-size: large;
+    border: 0em;
+    border-radius: 5px;
+    width: auto;
+    margin-left: 1rem;
+    background: #edc5c5;
+    box-shadow: 4px 4px 8px #d3afaf,
+    -4px -4px 8px #ffdbdb;
+}
+input {
+    font-size: large;
+    padding: .3rem 1rem;
+    border: 0em;
+    border-radius: 5px;
+    width: auto;
+    background: #edc5c5;
+    box-shadow: 4px 4px 8px #d3afaf,
+    -4px -4px 8px #ffdbdb;
+}
+
+ul {
+    list-style-type: none;
+    font-family: 'Cedarville Cursive', cursive;
+    margin: 1rem;
+    text-align: center;
+}
+li {
+    font-size: x-large;
+
+    margin: 1rem;
+    text-align: center;
+
+}
+
+.taskbtn {
+    margin-left: 2rem;
+    font-size: small;
+}
